@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`example 1`] = `
+<View
+  style={
+    Array [
+      Object {},
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "black",
+        },
+      ]
+    }
+  >
+    hi
+  </Text>
+</View>
+`;

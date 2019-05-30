@@ -16,6 +16,7 @@
     "e2e:test": "detox test --configuration ios.sim.debug"
   },
   "dependencies": {
+    "@artsy/palette": "^4.13.0",
     "i18n-js": "^3.2.1",
     "lodash": "^4.17.11",
     "moment": "^2.24.0",
@@ -43,11 +44,12 @@
     "redux-persist": "^5.10.0",
     "redux-promise": "^0.6.0",
     "redux-thunk": "^2.3.0",
+    "styled-components": "^4.2.0",
     "victory-native": "^31.0.0"
   },
   "devDependencies": {
-    "@babel/preset-flow": "^7.0.0",
     "@babel/core": "^7.3.4",
+    "@babel/preset-flow": "^7.0.0",
     "babel-eslint": "^10.0.1",
     "babel-jest": "^24.5.0",
     "danger": "^7.0.2",
@@ -69,7 +71,7 @@
     "prettier": "^1.16.1",
     "react-addons-test-utils": "^15.6.2",
     "react-dom": "^16.6.3",
-    "react-test-renderer": "16.8.3",
+    "react-test-renderer": "^16.8.6",
     "sinon": "^7.1.1"
   },
   "jest": {
